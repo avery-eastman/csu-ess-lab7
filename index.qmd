@@ -11,6 +11,9 @@ authors:
     corresponding: false
     
 bibliography: references.bib
+format: html
+execute:
+  echo: true
 ---
 
 # Title: Understanding How Different Management Practices Affect Soil Health Through Particulate Organic Matter and Water-Stable Aggregates
