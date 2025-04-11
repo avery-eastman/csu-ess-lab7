@@ -1,0 +1,11 @@
+﻿ATTRIBUTE,DESCRIPTION,UNITS,NOTE
+STUDY,Study acronym,,SQM = Soil Quality Management
+YEAR,Year of sample collection,,2018
+REP,Replication,,"1, 2, 3"
+ROTATION,Crop rotation,,SWS = Spring wheat–soybean; SWCS = Spring wheat–corn–soybean; SWCcc = Spring wheat–corn–cover crop
+TILLAGE,Tillage treatment,,min = Minimum tillage; no = No tillage
+DEPTH,Soil depth,,0to3 = 0-3 inches
+PLOT,Plot number,,101 | … | 324
+POMN,Particulate organic matter nitrogen,kg N/ha,
+POMC,Particulate organic matter carbon,kg C/ha,
+WSA,Water-stable aggregates,%,

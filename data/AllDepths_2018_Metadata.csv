@@ -1,0 +1,28 @@
+﻿ATTRIBUTE,DESCRIPTION,UNITS,NOTE
+STUDY,Study acronym,,SQM = Soil Quality Management
+YEAR,Year of sample collection,,2018
+REP,Replication,,"1, 2, 3"
+ROTATION,Crop rotation,,SWS = Spring wheat–soybean; SWCS = Spring wheat–corn–soybean; SWCcc = Spring wheat–corn–cover crop
+TILLAGE,Tillage treatment,,min = Minimum tillage; no = No tillage
+DEPTH,Soil depth,,Depth increments in inches
+PLOT,Plot number,,101 | … | 324
+SBD,Soil bulk density,Mg/m3,Missing data = -9999
+EC,Electrical conductivity,dS/m,
+PH,Soil pH,-log[H+],
+NO3N,Nitrate N,mg N/kg,
+OLSONP,Available P,mg P/kg,Olson extraction method
+SO4S,Sulfate S,mg S/kg,
+CA,Exchangeable calcium,cmol/kg,
+MG,Exchangeable magnesium,cmol/kg,
+K,Exchangeable potassium,cmol/kg,
+NA,Exchangeable sodium,cmol/kg,
+CEC,Sum of cations,cmol/kg,
+ZN,Extractable zinc,mg/kg,
+FE,Extractable iron,mg/kg,
+MN,Extractable manganese,mg/kg,
+CU,Extractable copper,mg/kg,
+B,Extractable boron,mg/kg,
+TN,Total nitrogen,g N/kg,
+TC,Total carbon,g C/kg,
+SOC,Soil organic carbon,g C/kg,Missing data = -9999
+SIC,Soil inorganic carbon,g C/kg,Missing data = -9999

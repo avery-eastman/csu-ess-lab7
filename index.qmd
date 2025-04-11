@@ -1,0 +1,103 @@
+---
+title: ESS 330 Project Kickoff
+authors:
+  - name: Avery Eastman
+    affiliation: CSU
+    roles: writing
+    corresponding: true
+  - name: Ava Zelenz
+    affiliation: CSU
+    roles: writing
+    corresponding: false
+    
+bibliography: references.bib
+---
+
+# Title: Understanding How Different Management Practices Affect Soil Health Through Particulate Organic Matter and Water-Stable Aggregates
+# Introduction, Background, and Motivation
+
+### Brief overview of the problem 
+According to [@article{worley2024truth], some industrial agriculture practices include tilling, monocropping, fertilizer use, and pesticide use. However, many industrial agriculture practices degrade soil health and have further harmful environmental implications. While these practices may be efficient and produce steady yields, they are not sustainable in the long run [@article{worley2024truth]. This is cause for serious concern, as soil health directly affects food and water security [@article{miner2020soil], and is incredibly important to keeping ecosystems functioning and healthy. Specifically soil organic carbon. In ecosystems, soil organic carbon is fundamental in the processes of water permeation, nutrient retention,and  aggregate stability, and most importantly, it provides adaptability to the extremes of a changing climate [@article{maharjan2020soil]. Studies have supported that in areas with less anthropogenic activity, the soil shows low bulk density [@article{cardoso2013soil]. These areas that are not under the pressure of human activity allow for better accumulation of soil particles, therefore better structure within the soil. This improved structure is incredibly important for ecosystems around the world as it allows the permeability for water, air, and roots to be eased, taking pressure off the ecosystems and helping them thrive. There needs to be a shift to more sustainable agriculture, with more research being done on different kinds of management practices that can sustain soil health while also sustaining crop yields. However, there is valid cause for uncertainty and worry towards transitioning to more sustainable agriculture. With some concerns about maintaining crop yields and production efficiency. Luckily [@article{miner2020soil] provides research showing that under no-tilling conditions, there was a slight yield decline, but yield declines were partially mitigated when no-till conditions were combined with residue retention and crop rotation practices.
+
+### Brief overview of the data 
+Data was collected within the years 2012 to 2018, with some datasets only having data for one year. The data shows results across 3 different crop rotation treatments. These crop rotations are: spring-wheat soybean, spring-wheat-corn soybean, and spring-wheat-corn cover crop. All of the data we will be using has these crop rotations, along with the replication of once, twice, or three times. The tillage was also consistent within datasets, with there being minimum or no tillage. Soil depth changed within datasets, with one dataset not having any data for that. There are six datasets we determined to be useful. The first is All Depth data. This set only lists data from 2018 and has a significant amount of information on the extracted materials of the soil. There are 337 points of data in this dataset, each giving a plot number, rotation, tillage, solid depth, and extraction results. The solid depth ranges from 0 to 60 inches, and is taken in increments. The second dataset is Surface Soil, with the years of data being 2012 and 2018. This source has the same variables as All Depth, but the soil depth stays consistent for each variable at 0 to 3 inches. This set also has only four resulting variables from the study, those being soil bulk density, soil pH, total soil nitrogen, and soil organic carbon. There are fewer points of data in this set, with 97 points. The next dataset is the POM&WSA dataset. POM stands for Particulate Organic Matter, and WSA stands for Water-stable Aggregates. Like the other datasets, there are the constants of replication, crop rotation, tillage treatment, and plot numbers. And like the Surface Soil dataset, the soil depth again ranges from 0 to 3 inches. The resulting variables from the study contain data results for particulate organic matter nitrogen, particulate organic matter carbon, and water-stable aggregates. 
+The Soil Cover dataset has data from the years 2012-2017. The replication, crop rotation, tillage treatment, and plot number are all the same as the above datasets. The spatial location of the soil plot is included and specified as either East or West. The soil coverage that this dataset is specifically demonstrating is represented as the percent of residue that is applied to the soil. The Crop Aboveground Biomass dataset keeps replication, crop rotation, tillage treatment, and plot number as constant variables. Annual, non-grain aboveground biomass is represented in this dataset. The aboveground biomass is recorded as the 6-year mean (2012-2017) for all the crop rotation treatments (spring-wheat soybean, spring-wheat-corn soybean, and spring-wheat-corn cover crop). The last dataset is the CoverCrop Aboveground Biomass. This dataset has the constant variables on replication, crop rotation, tillage treatment, and plot numbers. There is a different variable of plot location, with that being either East or West. There is also a variable called phase that consists of all plots being labeled as cc or cover crop. Lastly, the resulting variable in this dataset is AB Biomass, or Aboveground Biomass. There is no data for soil depth in this dataset, unlike the rest of the sets.
+
+### Brief overview of the methods 
+The scope of the study was south of Bismarck, North Dakota, within the surrounding crop lands. This study took place in the agriculture system and ecological system. Using soil property and agriculture management data, we identified how various soil health indicators changed under different crop rotation treatments. Before creating our model and testing the hypothesis, we analyzed the data for correlation, relationship type, skewness, and any missing values and inconsistencies. To test the impact of each treatment on soil health, we built a model that ranked each treatment by its relationship with good soil health indicators. Treatments that ranked higher had a stronger relationship.
+
+### APA citations for any sources used
+[@article{maharjan2020soil]
+[@article{cardoso2013soil]
+[@article{miner2020soil]
+[@article{worley2024truth]
+
+# Data Exploration
+
+### Description of data
+Data was collected within the years 2012 to 2018, with some datasets only having data for one year. The data shows results across 3 different crop rotation treatments. These crop rotations are: spring-wheat soybean, spring-wheat-corn soybean, and spring-wheat-corn cover crop. All of the data we will be using has these crop rotations, along with the replication of once, twice, or three times. The tillage was also consistent within datasets, with there being minimum or no tillage. Soil depth changed within datasets, with one dataset not having any data for that. There are six datasets we determined to be useful. The first is All Depth data. This set only lists data from 2018 and has a significant amount of information on the extracted materials of the soil. Each data point contains a plot number, rotation, tillage, solid depth, and extraction results. The solid depth ranges from 0 to 60 inches and was taken in increments. The second dataset is Surface Soil, with the years of data being only 2012 and 2018. This source has the same constant variables as All Depth, but the soil depth stays consistent for each variable at 0 to 3 inches. This set also shows soil bulk density, soil pH, total soil nitrogen, and soil organic carbon. There are fewer points of data in this set, with 97 points. The next dataset is the POM&WSA dataset. POM stands for Particulate Organic Matter, and WSA stands for Water-stable Aggregates. There are the constants of replication, crop rotation, tillage treatment, and plot numbers, and soil depth again ranges from 0 to 3 inches. The resulting variables from the study contain data results for particulate organic matter nitrogen, particulate organic matter carbon, and water-stable aggregates. The Soil Cover dataset has data from the years 2012-2017. The replication, crop rotation, tillage treatment, and plot number are all the same as the above datasets. The soil coverage that this dataset is specifically demonstrating is represented as the percent of residue that is applied to the soil. The Crop Aboveground Biomass dataset keeps replication, crop rotation, tillage treatment, and plot number as constant variables. Annual, non-grain aboveground biomass is represented in this dataset. The aboveground biomass is recorded as the 6-year mean (2012-2017) for all the crop rotation treatments (spring-wheat soybean, spring-wheat-corn soybean, and spring-wheat-corn cover crop). The last dataset is the CoverCrop Aboveground Biomass. This dataset has the constant variables on replication, crop rotation, tillage treatment, and plot numbers. There is a different variable of plot location, with that being either East or West. There is also a variable called phase that consists of all plots being labeled as cc or cover crop. Lastly, the resulting variable in this dataset is AB Biomass, or Aboveground Biomass. There is no data for soil depth in this dataset, unlike the rest of the sets.
+
+### Data testing (at least 2 tests)
+Perform a Shapiro-Wilk normality test to test if the data follows a normal distribution. Also, perform a Kolmogorov-Smirnov test and Anderson-Darling test.
+```{r}
+library(tidyverse)
+library(tidymodels)
+
+all_depth_raw <- read_csv("/Users/Avery/github/csu-ess-lab7/data/AllDepths_2018_Data.csv")
+
+POM_WSA_raw <- read_csv("/Users/Avery/github/csu-ess-lab7/data/POM&WSA_2018_Data.csv")
+
+numeric_POM_WSA <- POM_WSA_raw |>
+  select(where(is.numeric))
+
+shapiro.test(numeric_POM_WSA$POMC)
+shapiro.test(numeric_POM_WSA$POMN)
+shapiro.test(numeric_POM_WSA$WSA)
+
+library(nortest)
+library(dplyr)
+ad.test(numeric_POM_WSA$POMC)
+ad.test(numeric_POM_WSA$POMN)
+ad.test(numeric_POM_WSA$WSA)
+```
+
+### Visualizing the data (at least 2 images)
+Use vis_dat to see an overview of the different data types, use vis_miss to identify any missing values, use vis_cor to understand the correlation between the variables.
+```{r}
+library(visdat)
+visualize <- numeric_POM_WSA |>
+  select(POMC, POMN, WSA)
+vis_dat(visualize) 
+vis_miss(visualize)
+vis_cor(visualize)
+```
+
+
+### Cleaning the data
+```{r}
+POM_WSA_clean <- distinct(POM_WSA_raw)
+all_depth_clean <- all_depth_raw |>
+  filter(SBD != -9999) |>
+  filter(SOC != -9999) |>
+  filter(SIC != -9999)
+```
+
+
+# Methods Identification
+
+### What are you thinking about using to analyze your data to answer your question?
+To analyze our data we will use a model workflow. First, before we build a model and apply it to a workflow, we will use a workflow_set to test various models against each other and choose which model works best with our data. 
+
+### Do you have everything you need? What supplimental data might you need?
+We are pretty certain that we have everything we need. The only reason that we would need other data is if we use the existing data and run into major issues with it. 
+
+### What are some potential challenges you see in the data?
+There may be some issues when assessing the correlation between the variables in our data. This is because our data is from a relatively short time frame, and changes could be subtle. Additionally, it will be challenging to join the data since we have multiple datasets that need joining. 
+
+### What are some potential challenges you see in the methods?
+We think building the recipe for the model will be challenging because we have many predictors that we want to use to predict how well each treatment does. Additionally, we think manipulating/transforming the data to get it ready for analysis will be challenging and require a lot of work.
+
+### How do the selected methods help you get to your final goal?
+All of the methods described above will put us in a position to determine what management practices impact soil health the most. We will have taken steps to minimize any error we see in our predictions.
+
+
